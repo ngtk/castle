@@ -1,0 +1,21 @@
+[color]
+	ui = auto
+[user]
+	name = Kent Nagata
+	email = ngtknt@me.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[alias]
+	see = browse
+[push]
+	default = simple
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[alias]
+  st=status
+  pr=pull-request
+  ci=ci-status
+  showst=show --stat
+  r=reset
