@@ -11,6 +11,11 @@ alias vizsh='vi ~/.zshrc && source ~/.zshrc'
 alias vizshalias='vi ~/.alias && source ~/.alias'
 alias vimrc='vi ~/.vimrc'
 
+# homeshick
+source $HOME/.homesick/repos/homeshick/homeshick.sh
+fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
+
+
 # preload /usr/local/bin for oh-my-zsh
 # see: https://github.com/robbyrussell/oh-my-zsh/issues/2583
 export PATH="/usr/local/bin:$PATH"
