@@ -121,6 +121,9 @@ NeoBundleLazy 'marcus/rsense', {
       \   'filetypes': 'ruby',
       \ },
       \ }
+NeoBundle 'itchyny/dictionary.vim'
+NeoBundle 'haya14busa/incsearch.vim'
+NeoBundle 'osyo-manga/vim-anzu'
 
 " Required:
 call neobundle#end()
