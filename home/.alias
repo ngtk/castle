@@ -13,21 +13,11 @@ alias vitmux='vi ~/.tmux.conf'
 alias safari="open -a Safari"
 alias prev="open -a Preview"
 
-# Edit bash-config
-alias vibash='vi ~/.bash_profile || source ~/.bash_profile'
-alias vibashrc='vi ~/.bashrc || source ~/.bashrc'
-alias vibashalias='vi ~/.bash_alias || source ~/.bash_alias'
-
 # Edit .vimrc
 alias vimrc='vi ~/.vimrc'
 
 # rm
 alias rmdir='rm -rf'
-
-# ls
-alias ls='ls -G'
-alias la='ls -a'
-alias lla='ls -la'
 
 # git
 alias g='git'
