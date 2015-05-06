@@ -48,3 +48,11 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # github <3<3
 function git(){ hub "$@" }
+
+# ls colors
+alias ls='gls --color=auto'
+eval $(gdircolors ~/.dircolors)
+
+if [ -n "$LS_COLORS"  ]; then
+  zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+fi
