@@ -19,3 +19,6 @@
   ci=ci-status
   showst=show --stat
   r=reset
+[ghq]
+  root = ~/code
+  root = /usr/local/opt/go/libexec/bin/src
