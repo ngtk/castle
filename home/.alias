@@ -15,6 +15,7 @@ alias prev="open -a Preview"
 
 # Edit .vimrc
 alias vimrc='vi ~/.vimrc'
+alias vimbundle='vi ~/.vim/neobundle.vim && vim -N -u ~/.vimrc -c "try | NeoBundleInstall! $* | finally | qall! | endtry" -U NONE -i NONE -V1 -e -s'
 
 # rm
 alias rmdir='rm -rf'
