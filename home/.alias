@@ -1,5 +1,5 @@
 # Edit this file
-alias vialias='vi ~/.zsh/aliases.sh || source ~/.zsh/aliases.sh'
+alias vialias='vi ~/.alias && source ~/.alias'
 
 # Tmux
 alias tls='tmux ls'
