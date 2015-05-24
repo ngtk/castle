@@ -36,6 +36,11 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export RBENV_ROOT=/usr/local/var/rbenv
 eval "$(rbenv init - zsh)"
 
+# Python: pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # Node: nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
