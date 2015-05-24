@@ -131,6 +131,17 @@ NeoBundleLazy 'gorodinskiy/vim-coloresque', {
       \ }
 NeoBundle 'open-browser.vim'
 NeoBundle 'glidenote/memolist.vim'
+NeoBundleLazy 'lambdalisue/vim-gista', {
+    \ 'depends': [
+    \    'Shougo/unite.vim',
+    \    'tyru/open-browser.vim',
+    \ ],
+    \ 'autoload': {
+    \    'commands': ['Gista'],
+    \    'mappings': '<Plug>(gista-',
+    \    'unite_sources': 'gista',
+    \ }
+    \ }
 
 " Required:
 call neobundle#end()
