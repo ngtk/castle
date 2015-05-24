@@ -124,6 +124,12 @@ NeoBundleLazy 'marcus/rsense', {
 NeoBundle 'itchyny/dictionary.vim'
 NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'osyo-manga/vim-anzu'
+NeoBundleLazy 'gorodinskiy/vim-coloresque', {
+      \ 'autoload': {
+      \   'filetypes': ['scss', 'css']
+      \ }
+      \ }
+NeoBundle 'open-browser.vim'
 
 " Required:
 call neobundle#end()
