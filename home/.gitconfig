@@ -22,3 +22,5 @@
 [ghq]
   root = ~/code
   root = /usr/local/opt/go/libexec/bin/src
+[github]
+	user = ngtk
