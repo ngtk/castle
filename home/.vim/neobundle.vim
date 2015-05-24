@@ -142,6 +142,7 @@ NeoBundleLazy 'lambdalisue/vim-gista', {
     \    'unite_sources': 'gista',
     \ }
     \ }
+NeoBundle 'sorah/unite-ghq'
 
 " Required:
 call neobundle#end()
