@@ -130,6 +130,7 @@ NeoBundleLazy 'gorodinskiy/vim-coloresque', {
       \ }
       \ }
 NeoBundle 'open-browser.vim'
+NeoBundle 'glidenote/memolist.vim'
 
 " Required:
 call neobundle#end()
