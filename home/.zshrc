@@ -72,3 +72,25 @@ function peco-src () {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+
+# editor
+export EDITOR=vim
+
+
+function git-replace-text () {
+  git grep -l $1 | xargs sed -i '' -e "s/$1/$2/g"
+}
+
+function peco-select-gitadd() {
+    local SELECTED_FILE_TO_ADD="$(git status --porcelain | \
+                                  peco --query "$LBUFFER" | \
+                                  awk -F ' ' '{print $NF}')"
+    if [ -n "$SELECTED_FILE_TO_ADD" ]; then
+      BUFFER="git add $(echo "$SELECTED_FILE_TO_ADD" | tr '\n' ' ')"
+      CURSOR=$#BUFFER
+    fi
+    zle accept-line
+    # zle clear-screen
+}
+zle -N peco-select-gitadd
+bindkey "^g^a" peco-select-gitadd
