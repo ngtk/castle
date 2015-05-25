@@ -1,0 +1,16 @@
+# ~/.tmuxinator/viibar.yml
+
+name: viibar
+root: ~/code/github.com/viibar/viibar/
+
+# tmux socket
+socket_name: viibar
+
+windows:
+  - editor:
+  - editor:
+  - editor:
+  - console: bundle exec rails c
+  - server: bundle exec rails s -p 8080
+  - clockwork: bundle exec clockwork ./clockwork.rb
+  - delayed_job: bundle exec rake jobs:work
