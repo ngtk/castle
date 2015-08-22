@@ -22,6 +22,7 @@ alias rmdir='rm -rf'
 
 # git
 alias g='git'
+alias gg='git grep'
 alias gra='git graph'
 alias st='git status'
 alias cm='git commit -v'
