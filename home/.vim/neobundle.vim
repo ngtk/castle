@@ -143,6 +143,7 @@ NeoBundleLazy 'lambdalisue/vim-gista', {
     \ }
     \ }
 NeoBundle 'sorah/unite-ghq'
+NeoBundle 'mopp/autodirmake.vim'
 
 " Required:
 call neobundle#end()
