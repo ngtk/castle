@@ -94,3 +94,6 @@ function peco-select-gitadd() {
 }
 zle -N peco-select-gitadd
 bindkey "^g^a" peco-select-gitadd
+
+# added by travis gem
+[ -f /Users/ngtk/.travis/travis.sh ] && source /Users/ngtk/.travis/travis.sh
