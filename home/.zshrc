@@ -95,5 +95,8 @@ function peco-select-gitadd() {
 zle -N peco-select-gitadd
 bindkey "^g^a" peco-select-gitadd
 
+# Use misc bin
+export PATH="/usr/local/misc/bin:$PATH"
+
 # added by travis gem
 [ -f /Users/ngtk/.travis/travis.sh ] && source /Users/ngtk/.travis/travis.sh
