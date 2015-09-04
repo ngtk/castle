@@ -24,3 +24,9 @@
   root = /usr/local/opt/go/libexec/bin/src
 [github]
 	user = ngtk
+[init]
+	templatedir = ~/.git/template
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
