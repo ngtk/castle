@@ -106,6 +106,9 @@ NeoBundle 'szw/vim-tags'
 " neco-ruby-keyword-args
 " Completes keyword argments in Ruby
 NeoBundle 'rhysd/neco-ruby-keyword-args'
+NeoBundleLazy 'rhysd/unite-ruby-require.vim', {
+        \  'autoload': { 'filetypes' : ['ruby', 'eruby'] }
+        \ }
 NeoBundleLazy 'vim-ruby/vim-ruby', {
         \  'autoload': { 'filetypes' : ['ruby', 'eruby'] }
         \ }
