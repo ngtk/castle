@@ -12,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'basyura/unite-rails'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'chase/vim-ansible-yaml'
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
 Plug 'gorodinskiy/vim-coloresque', { 'for': ['css', 'scss'] }
