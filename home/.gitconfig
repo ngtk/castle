@@ -21,7 +21,7 @@
   r=reset
 [ghq]
   root = ~/code
-  root = /usr/local/opt/go/libexec/bin/src
+  root = ~/.go
   root = ~/.homesick/repos
 [github]
 	user = ngtk

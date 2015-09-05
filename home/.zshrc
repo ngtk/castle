@@ -45,8 +45,8 @@ eval "$(pyenv init -)"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # Go
-export GOPATH=/usr/local/opt/go/libexec/bin
-export PATH=$PATH:$GOPATH
+export GOPATH=~/.go
+export PATH=$PATH:$GOPATH/bin
 
 ### Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
