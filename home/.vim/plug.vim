@@ -16,6 +16,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
 Plug 'gorodinskiy/vim-coloresque', { 'for': ['css', 'scss'] }
 Plug 'gregsexton/gitv'
+Plug 'guns/xterm-color-table.vim', { 'on': 'XtermColorTable' }
 " H
 Plug 'haya14busa/incsearch.vim'
 " I
