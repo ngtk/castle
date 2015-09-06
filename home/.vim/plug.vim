@@ -9,6 +9,8 @@ Plug 'basyura/unite-rails'
 Plug 'bronson/vim-trailing-whitespace'
 " C
 Plug 'chase/vim-ansible-yaml'
+" D
+Plug 'danro/rename.vim'
 " G
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
