@@ -11,6 +11,8 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'chase/vim-ansible-yaml'
 " D
 Plug 'danro/rename.vim'
+" E
+Plug 'ervandew/supertab'
 " G
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
