@@ -39,6 +39,7 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
 Plug 'mattn/webapi-vim'
 Plug 'mopp/autodirmake.vim'
 " N
+Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'ngmy/vim-rubocop'
 " O
 Plug 'open-browser.vim'
