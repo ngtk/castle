@@ -1,1 +1,1 @@
-let g:extra_whitespace_ignored_filetype = ['unite', 'quickfix']
+let g:extra_whitespace_ignored_filetype = ['unite', 'quickfix', 'gitcommit']
