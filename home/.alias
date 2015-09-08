@@ -64,6 +64,8 @@ if [ -x "`which peco`" ]; then
   alias pp='ps aux | peco'
 fi
 
+# memo
+alias memo='vi -c :MemoNew'
 
 # source zshrc
 alias sourcezshrc='source ~/.zshrc'
