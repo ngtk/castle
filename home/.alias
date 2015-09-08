@@ -3,9 +3,8 @@ alias vialias='vi ~/.alias && source ~/.alias'
 
 # Tmux
 alias tls='tmux ls'
-alias att='tmux a -d -t'
-alias tskill='tmux kill-session -t'
-alias twkill='tmux kill-window'
+alias att='tmux attach-session -d -t'
+alias tkill='tmux kill-session -t'
 alias tnew='tmux new -s'
 alias vitmux='vi ~/.tmux.conf'
 
