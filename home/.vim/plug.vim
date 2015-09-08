@@ -32,6 +32,7 @@ Plug 'junegunn/vim-emoji'
 " K
 Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
+Plug 'keith/rspec.vim', { 'for': 'ruby' }
 " L
 Plug 'lambdalisue/vim-gista', { 'on': 'Gista' }
 " M
