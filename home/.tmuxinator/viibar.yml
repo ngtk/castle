@@ -3,6 +3,9 @@
 name: viibar
 root: ~/code/github.com/viibar/viibar/
 
+# pre command
+pre: powder up
+
 # tmux socket
 socket_name: viibar
 
