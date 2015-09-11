@@ -37,3 +37,8 @@ noremap <CR> o<ESC>
 " スペルチェック
 set spell
 set spelllang=en,cjk
+
+" コマンド補完
+" set wildmode=list,full
+set wildmenu
+set wildmode=longest:full,full
