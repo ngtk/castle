@@ -14,6 +14,7 @@ windows:
   - editor:
   - editor:
   - console: bundle exec rails c
-  - server: bundle exec rails s -p 8080
+  - dev-log: powder log
+  - test-log: tail -f ./log/test.log
   - clockwork: bundle exec clockwork ./clockwork.rb
   - delayed_job: bundle exec rake jobs:work
