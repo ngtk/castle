@@ -33,3 +33,7 @@ set number        "行数を表示
 
 " ノーマルモード Enterで改行
 noremap <CR> o<ESC>
+
+" スペルチェック
+set spell
+set spelllang=en,cjk
