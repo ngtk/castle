@@ -54,12 +54,11 @@ Plug 'rhysd/neco-ruby-keyword-args'
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
 Plug 'rking/ag.vim'
 " S
-Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'shougo/neocomplete.vim'
 Plug 'shougo/neosnippet'
-Plug 'shougo/neosnippet-snippets'
+Plug 'ngtk/neosnippet-snippets'
 Plug 'shougo/unite.vim'
 Plug 'shougo/vimproc.vim', { 'do': 'vim +VimProcInstall' }
 Plug 'shougo/vimshell.vim'

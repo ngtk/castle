@@ -1,3 +1,2 @@
 " emmet.vim
-let g:user_emmet_mode='n'
-"let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.vim/emmet-vim/snippets.json')), "\n"))
+autocmd FileType html,eruby imap <expr> <s-tab> emmet#expandAbbrIntelligent("\<tab>")
