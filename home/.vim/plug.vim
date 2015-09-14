@@ -41,6 +41,7 @@ Plug 'marcus/rsense', { 'for': 'ruby' }
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
 Plug 'mattn/webapi-vim'
+Plug 'mbbill/undotree'
 Plug 'mopp/autodirmake.vim'
 " N
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
@@ -62,7 +63,6 @@ Plug 'ngtk/neosnippet-snippets'
 Plug 'shougo/unite.vim'
 Plug 'shougo/vimproc.vim', { 'do': 'vim +VimProcInstall' }
 Plug 'shougo/vimshell.vim'
-Plug 'sjl/gundo.vim'
 Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
 " T
