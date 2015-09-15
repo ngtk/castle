@@ -77,6 +77,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-rails'
+Plug 'tpope/vim-unimpaired'
 Plug 'tyru/open-browser-github.vim'
 Plug 'tyru/open-browser.vim'
 " V
