@@ -70,6 +70,7 @@ Plug 'thinca/vim-ref'
 Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
 Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
+Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
