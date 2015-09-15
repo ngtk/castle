@@ -1,3 +1,6 @@
+# SSH
+ssh-add ~/.ssh/github/id_rsa 1> /dev/null 2> /dev/null
+
 # Zsh path
 export ZSH=$HOME/.oh-my-zsh
 export TERM=xterm-256color
