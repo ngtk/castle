@@ -50,6 +50,8 @@ Plug 'ngmy/vim-rubocop'
 Plug 'open-browser.vim'
 Plug 'osyo-manga/vim-anzu'
 Plug 'osyo-manga/vim-over'
+" P
+Plug 'powerman/vim-plugin-AnsiEsc'
 " R
 Plug 'rhysd/neco-ruby-keyword-args'
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
@@ -72,7 +74,7 @@ Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-dispatch'
+Plug 'ngtk/vim-dispatch'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown'
