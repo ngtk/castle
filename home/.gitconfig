@@ -23,6 +23,7 @@
   root = ~/code
   root = ~/.go
   root = ~/.homesick/repos
+  root = ~/.vim/plugged
 [github]
 	user = ngtk
 [init]
