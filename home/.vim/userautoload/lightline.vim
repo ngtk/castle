@@ -20,11 +20,19 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set noshowmode
 
 function! MyModified()
-  return &ft =~ 'help\|vimfiler\|gundo' ? '' : &modified ? '+' : &modifiable ? '' : '-'
+  if &ft =~ 'help\|vimfiler\|gundo' | return '' | endif
+
+  if &modified
+    return '+'
+  else
+    return &modifiable ? '' : '-'
+  endif
 endfunction
 
 function! MyReadonly()
-  return &ft !~? 'help\|vimfiler\|gundo' && &readonly ? 'x' : ''
+  if &ft =~ 'help\|vimfiler\|gundo' | return '' | endif
+
+  return &readonly ? 'x' : ''
 endfunction
 
 function! MyFilename()
