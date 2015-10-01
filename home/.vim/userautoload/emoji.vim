@@ -1,2 +1,5 @@
 " vim-emoji
-set completefunc=emoji#complete
+if !exists('g:neocomplete#sources#vim#complete_functions')
+  let g:neocomplete#sources#vim#complete_functions = {}
+endif
+let g:neocomplete#sources#vim#complete_functions.Emoji = 'emoji#complete'

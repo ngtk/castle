@@ -12,7 +12,9 @@ Plug 'chase/vim-ansible-yaml'
 " D
 Plug 'danro/rename.vim'
 " E
+Plug 'edsono/vim-matchit'
 Plug 'ervandew/supertab'
+Plug 'ecomba/vim-ruby-refactoring'
 " G
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
@@ -25,8 +27,10 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'itchyny/dictionary.vim'
 Plug 'itchyny/lightline.vim'
 " J
+Plug 'janko-m/vim-test'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf'
+Plug 'junegunn/vader.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-emoji'
 " K
@@ -69,6 +73,7 @@ Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
 " T
 Plug 'thinca/vim-ref'
+Plug 'thinca/vim-splash'
 Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
 Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
