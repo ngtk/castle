@@ -41,6 +41,7 @@ Plug 'marcus/rsense', { 'for': 'ruby' }
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
 Plug 'mattn/webapi-vim'
+Plug 'mattn/vim-cheat'
 Plug 'mbbill/undotree'
 Plug 'mopp/autodirmake.vim'
 " N

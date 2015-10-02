@@ -1,3 +1,5 @@
+export LANG="ja_JP.UTF-8"
+
 # SSH
 ssh-add ~/.ssh/github/id_rsa 1> /dev/null 2> /dev/null
 
@@ -24,7 +26,7 @@ fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
 export PATH="/usr/local/bin:$PATH"
 
 # see: ~/.oh-my-zsh/plugins/*
-plugins=(git osx brew bundle ruby rails tmux)
+plugins=(git osx brew bundle ruby rails rake-fast tmux)
 
 source $ZSH/oh-my-zsh.sh
 
