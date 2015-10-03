@@ -1,0 +1,9 @@
+# ~/.tmuxinator/sofa.yml
+
+name: Sofa
+root: ~/
+
+windows:
+  - castle: ghq look castle
+  - factory: ghq look factory
+  - napsac: ghq look napsac
