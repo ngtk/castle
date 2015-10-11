@@ -70,6 +70,7 @@ Plug 'szw/vim-tags'
 " T
 Plug 'thinca/vim-ref'
 Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
+Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-abolish'
