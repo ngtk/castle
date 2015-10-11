@@ -6,7 +6,7 @@ alias tls='tmux ls'
 alias att='tmux attach-session -d -t'
 alias tkill='tmux kill-session -t'
 alias tnew='tmux new -s'
-alias vitmux='vi ~/.tmux.conf'
+alias vitmux='vi ~/.tmux.conf && tmux source-file ~/.tmux.conf && tmux display-message "reloading config..."'
 
 # OSX APP
 alias safari="open -a Safari"
