@@ -54,6 +54,8 @@ end
 #  Vendor Stuff
 # ==============================
 
+Pry.config.theme = 'solarized'
+
 ###   Printing!
 # (1) hirb
 # (2) Awesome Print
