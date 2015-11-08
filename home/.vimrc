@@ -15,5 +15,4 @@ source ~/.vim/plug.vim
 source ~/.vim/color.vim
 
 " Plugins
-set runtimepath+=~/.vim/
 runtime! userautoload/*.vim
