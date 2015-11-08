@@ -8,3 +8,11 @@ let g:syntastic_mode_map = {
       \ 'passive_filetypes': ['nerdtree']
       \ }
 let g:syntastic_ruby_checkers = ['rubocop']
+
+" styles
+hi SyntasticErrorSign   ctermbg=black ctermfg=1
+hi SyntasticWarningSign ctermbg=black ctermfg=3
+" let g:syntastic_error_symbol         = emoji#for('x')
+" let g:syntastic_warning_symbol       = emoji#for('warning')
+" let g:syntastic_style_error_symbol   = emoji#for('x')
+" let g:syntastic_style_warning_symbol = emoji#for('warning')
