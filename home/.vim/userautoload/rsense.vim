@@ -1,8 +1,9 @@
+let g:rsenseHome = "/usr/local/Cellar/rsense/0.3/libexec/"
+let g:neocomplete#sources#rsense#home_directory = g:rsenseHome
+
 " .や::を入力したときにオムニ補完が有効になるようにする
+let g:rsenseUseOmniFunc = 1
 if !exists('g:neocomplete#force_omni_input_patterns')
   let g:neocomplete#force_omni_input_patterns = {}
 endif
 let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
-
-" 環境変数RSENSE_HOMEに'/usr/local/bin/rsense'を指定しても動く
-let g:neocomplete#sources#rsense#home_directory = '/usr/local/bin/rsense'"
