@@ -41,7 +41,7 @@ alias pull='git pull'
 alias latest='git latest | less'
 alias ci='git ci-status'
 
-alias vigitconfig='vi ~/.gitconfig'
+alias vigit='vi ~/.gitconfig'
 
 # rake
 alias rakepeco='$(rake -T | peco |  sed -e "s/#.*//" )'
