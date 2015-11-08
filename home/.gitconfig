@@ -19,6 +19,7 @@
   ci=ci-status
   showst=show --stat
   r=reset
+  cancel=reset --soft HEAD^
 [ghq]
   root = ~/code
   root = ~/.go
