@@ -102,7 +102,7 @@ if defined? AwesomePrint
   end
   ## If you want awesome_print without automatic pagination, use below:
   # Pry.config.print = proc { |output, value| output.puts value.ai }
-  Pry.config.pager = false
+  Pry.config.pager = true
 
 
   ## Evaluated result display inline
