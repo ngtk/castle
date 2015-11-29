@@ -16,7 +16,7 @@ endfunction
 
 function! s:class_name() abort
   let filepath = expand("%:p:r") " /path/to/project/spec/hoge/fuga_spec
-  let address = s:extract_class_address(filepath) " hoge/fuga_spec
+  let address = s:extract_class_address(filepath) " hoge/fuga
   let class_name = s:ruby_camerize(address) " Hoge::Fuga
   return class_name
 endfunction
