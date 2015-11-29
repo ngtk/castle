@@ -14,14 +14,16 @@ function! s:template_keywords()
   let address = s:extract_class_address(filepath) " hoge/fuga_spec
   let class_name = s:ruby_camerize(address) " Hoge::Fuga
 
-  if exists('g:loaded_rails') && RailsDetect() == 1
-    let helper_name = 'rails_helper'
-  else
-    let helper_name = 'spec_helper'
-  endif
-
   %s/<+CLASS NAME+>/\=class_name/g
-  %s/<+HELPER NAME+>/\=helper_name/g
+  %s/<+HELPER NAME+>/\=s:helper_name()/g
+endfunction
+
+function! s:helper_name() abort
+  if exists('g:loaded_rails') && RailsDetect() == 1
+    return 'rails_helper'
+  else
+    return 'spec_helper'
+  endif
 endfunction
 
 
