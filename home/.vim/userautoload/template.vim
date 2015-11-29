@@ -10,12 +10,15 @@ let g:template_files = '**'
 " ------------------------------
 autocmd User plugin-template-loaded call s:template_keywords()
 function! s:template_keywords()
+  %s/<+CLASS NAME+>/\=s:class_name()/g
+  %s/<+HELPER NAME+>/\=s:helper_name()/g
+endfunction
+
+function! s:class_name() abort
   let filepath = expand("%:p:r") " /path/to/project/spec/hoge/fuga_spec
   let address = s:extract_class_address(filepath) " hoge/fuga_spec
   let class_name = s:ruby_camerize(address) " Hoge::Fuga
-
-  %s/<+CLASS NAME+>/\=class_name/g
-  %s/<+HELPER NAME+>/\=s:helper_name()/g
+  return class_name
 endfunction
 
 function! s:helper_name() abort
