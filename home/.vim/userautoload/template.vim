@@ -17,6 +17,7 @@ endfunction
 function! s:class_name() abort
   let filepath = expand("%:p:r") " /path/to/project/spec/hoge/fuga_spec
   let address = s:extract_class_address(filepath) " hoge/fuga
+  let address = s:filter_rails_prefix(address) " hoge/fuga
   let class_name = s:ruby_camerize(address) " Hoge::Fuga
   return class_name
 endfunction
@@ -29,6 +30,28 @@ function! s:helper_name() abort
   endif
 endfunction
 
+" text: controllers/foo/apples_controller
+" return: foo/apples_controller
+function! s:filter_rails_prefix(text) abort
+  if !exists('g:loaded_rails') || RailsDetect() == 0
+    return a:text
+  endif
+
+  let prefix_list = [
+        \ 'controllers',
+        \ 'models',
+        \ 'views',
+        \ 'lib',
+        \ 'features',
+        \ 'helpers',
+        \ 'jobs',
+        \ 'requests'
+        \ ]
+  let pattern = join(prefix_list, '\|')
+  let filtered = substitute(a:text, pattern, '', '') " /foo/apples_controller
+  let filtered = filtered[1:-1] " foo/apples_controller
+  return filtered
+endfunction
 
 " text: 'foo_bar/hoo_spec'
 " return: 'FooBar::Hoo'
