@@ -69,6 +69,7 @@ Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
 " T
 Plug 'thinca/vim-ref'
+Plug 'thinca/vim-template'
 Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
 Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 Plug 'tomasr/molokai'
