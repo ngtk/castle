@@ -14,8 +14,7 @@ function! s:template_keywords()
   let address = s:extract_class_address(filepath) " hoge/fuga_spec
   let class_name = s:ruby_camerize(address) " Hoge::Fuga
 
-  " FIXME: check presence of rails.vim
-  if RailsDetect() == 1
+  if exists('g:loaded_rails') && RailsDetect() == 1
     let helper_name = 'rails_helper'
   else
     let helper_name = 'spec_helper'
