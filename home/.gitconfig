@@ -20,6 +20,7 @@
   showst=show --stat
   r=reset
   cancel=reset --soft HEAD^
+  rt=replace-text
 [ghq]
   root = ~/code
   root = ~/.go
