@@ -137,6 +137,8 @@ Pry.config.history.file = "~/.irb_history"
 # Editors
 #   available options: vim, mvim, mate, emacsclient...etc.
 Pry.config.editor = ENV['EDITOR']
+Pry.config.commands.alias_command 'vi', 'edit'
+
 
 # ==============================
 #   Pry Prompt
