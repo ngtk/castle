@@ -67,6 +67,9 @@ if [ -x "`which peco`" ]; then
   alias pp='ps aux | peco'
 fi
 
+# pry
+alias vipry='vi ~/.pryrc'
+
 # memo
 alias memo='vi -c :MemoNew'
 
