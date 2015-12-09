@@ -154,6 +154,7 @@ Pry.config.prompt = proc do |obj, level, _|
   prompt << "AWS@" if defined?(AWS)
   prompt << "#{Rails.version}@" if defined?(Rails)
   prompt << "#{RUBY_VERSION}"
+  obj = obj.respond_to?(:to_s) ? obj.to_s : '*'
   "#{prompt} (#{obj})> "
 end
 
