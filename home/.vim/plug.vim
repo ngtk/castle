@@ -33,6 +33,7 @@ Plug 'junegunn/vim-emoji'
 " K
 Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
+Plug 'koron/codic-vim'
 Plug 'keith/rspec.vim', { 'for': 'ruby' }
 " L
 Plug 'lambdalisue/vim-gista', { 'on': 'Gista' }
@@ -58,6 +59,7 @@ Plug 'powerman/vim-plugin-AnsiEsc'
 " R
 Plug 'rhysd/neco-ruby-keyword-args'
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
+Plug 'rhysd/unite-codic.vim'
 Plug 'rking/ag.vim'
 " S
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
