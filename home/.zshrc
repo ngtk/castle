@@ -103,3 +103,7 @@ export PATH="/usr/local/misc/bin:$PATH"
 
 # added by travis gem
 [ -f /Users/ngtk/.travis/travis.sh ] && source /Users/ngtk/.travis/travis.sh
+
+
+# bundlerenv
+eval "$(bundlerenv init)"
