@@ -13,7 +13,6 @@ Plug 'chase/vim-ansible-yaml'
 Plug 'danro/rename.vim'
 Plug 'derekwyatt/vim-scala'
 " E
-Plug 'ervandew/supertab'
 " G
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
