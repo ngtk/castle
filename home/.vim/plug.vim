@@ -65,6 +65,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'shougo/neocomplete.vim'
 Plug 'shougo/neosnippet'
+Plug 'shougo/vinarise.vim'
 Plug 'ngtk/neosnippet-snippets'
 Plug 'shougo/unite.vim'
 Plug 'shougo/vimproc.vim', { 'do': 'vim +VimProcInstall' }
