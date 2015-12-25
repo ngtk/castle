@@ -14,7 +14,7 @@ ___ = PryrcHelpers
 ___daily_gems  = %w[benchmark yaml json sqlite3]
 
 # ___pry_gems is for loading vendor plugins for Pry.
-___pry_gems = %w[awesome_print hirb pry-byebug pry-stack_explorer]
+___pry_gems = %w[awesome_print hirb pry-byebug pry-stack_explorer aozora]
 
 ___daily_gems.___require_gems
 ___pry_gems.___require_gems
@@ -123,6 +123,19 @@ if defined? AwesomePrint
     end
   end
 end # End of AwesomePrint
+
+
+# ==============================
+#   Aozora
+# ==============================
+# https://github.com/ttanimichi/aozora
+if defined? Aozora
+  Aozora.titles.each do |title|
+    define_method(title) do |size = 100|
+      Aozora.public_send(title, size)
+    end
+  end
+end
 
 ### End of Vendor Stuff
 
