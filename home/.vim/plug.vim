@@ -45,8 +45,6 @@ Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
 Plug 'mopp/autodirmake.vim'
 " N
-Plug 'git@github.com:ngtk/circleci.vim.git'
-Plug 'git@github.com:ngtk/circleci-rspec.vim.git'
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'git@github.com:ngtk/circleci.vim.git'
 Plug 'git@github.com:ngtk/circleci-rspec.vim.git'
