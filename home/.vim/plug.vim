@@ -40,7 +40,6 @@ Plug 'keith/rspec.vim', { 'for': 'ruby' }
 Plug 'lambdalisue/vim-gista', { 'on': 'Gista' }
 " M
 Plug 'majutsushi/tagbar'
-Plug 'marcus/rsense', { 'for': 'ruby' }
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'mattn/benchvimrc-vim'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
