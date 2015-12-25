@@ -8,5 +8,3 @@ nnoremap <Leader>n :call RunNearestSpec()<CR>
 nnoremap <Leader>l :call RunLastSpec()<CR>
 nnoremap <Leader>a :call RunAllSpecs()<CR>
 
-" keith/rspec.vim
-autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
