@@ -34,7 +34,6 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
 Plug 'kmnk/vim-unite-giti'
 Plug 'koron/codic-vim'
-Plug 'keith/rspec.vim', { 'for': 'ruby' }
 " L
 Plug 'lambdalisue/vim-gista', { 'on': 'Gista' }
 " M
