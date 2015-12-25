@@ -268,22 +268,9 @@ Pry.active_sessions = 0
 
 Pry.config.hooks.add_hook(:before_session, :welcome) do
     if Pry.active_sessions.zero?
-      puts "Hello #{___.user}! I'm Pry #{Pry::VERSION}."
-      puts "I'm Loading Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} and everything else for you:"
-
-      ### Fake Loading Progress bar
-      # |====================>
-      [*1..9].each do |e|
-        print ___.pryrc_progress_bar e
-        $stdout.flush
-        sleep ___.pryrc_speed
-      end
-
-      # Print |==================> Load Completed!
-      # 9 is to keep progress bar have the same length (see above each loop)
-      print ___.pryrc_progress_bar 9, true
-
-      puts ___.welcome_messages
+      puts "Pry: #{Pry::VERSION}"
+      puts "Ruby: #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+      puts ""
     end
   Pry.active_sessions += 1
 end
