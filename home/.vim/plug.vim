@@ -71,6 +71,7 @@ Plug 'ngtk/neosnippet-snippets'
 Plug 'shougo/unite.vim'
 Plug 'shougo/vimproc.vim', { 'do': 'vim +VimProcInstall' }
 Plug 'shougo/vimshell.vim'
+Plug 'slim-template/vim-slim'
 Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
 " T
