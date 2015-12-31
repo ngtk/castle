@@ -20,6 +20,7 @@ Plug 'gorodinskiy/vim-coloresque', { 'for': ['css', 'scss'] }
 Plug 'gregsexton/gitv'
 Plug 'guns/xterm-color-table.vim', { 'on': 'XtermColorTable' }
 " H
+Plug 'haya14busa/vim-operator-flashy'
 Plug 'haya14busa/incsearch.vim'
 " I
 Plug 'itchyny/dictionary.vim'
@@ -30,6 +31,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-emoji'
 " K
+Plug 'kana/vim-operator-user'
 Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
 Plug 'kmnk/vim-unite-giti'
