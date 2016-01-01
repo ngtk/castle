@@ -8,6 +8,7 @@ let g:syntastic_mode_map = {
       \ 'passive_filetypes': ['nerdtree']
       \ }
 let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_javascript_checkers = ['jshint']
 
 " styles
 hi SyntasticErrorSign   ctermbg=black ctermfg=1
