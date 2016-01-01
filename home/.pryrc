@@ -20,6 +20,7 @@ hirb
 pry-byebug
 pry-stack_explorer
 aozora
+ancestors_that_implement_instance_method
 ]
 
 ___daily_gems.___require_gems
