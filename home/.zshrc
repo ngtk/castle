@@ -34,6 +34,8 @@ source ~/.alias
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
+export PATH="$PATH:$HOME/.global_node_modules/node_modules/.bin"
+
 # Ruby: rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 export RBENV_ROOT=/usr/local/var/rbenv
