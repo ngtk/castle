@@ -2,6 +2,7 @@
 :european_castle: My comfort zone
 
 ## Furnitures
+* [bundler](home/.bundle/config)
 * [git](home/.gitconfig)
 * [peco](home/.peco/config.json)
 * [pry](home/.pryrc)
