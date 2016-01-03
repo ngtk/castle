@@ -76,6 +76,7 @@ Plug 'shougo/vimshell.vim'
 Plug 'slim-template/vim-slim'
 Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
+Plug 'szw/vim-g'
 " T
 Plug 'thinca/vim-ref'
 Plug 'thinca/vim-prettyprint'
