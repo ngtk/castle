@@ -109,3 +109,11 @@ export PATH="/usr/local/misc/bin:$PATH"
 
 # bundlerenv
 eval "$(bundlerenv init)"
+
+
+
+# misc
+
+function ghq-remove() {
+  ghq list --full-path | peco | xargs rm -r
+}
