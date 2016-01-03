@@ -158,6 +158,8 @@ Pry.config.history.file = "~/.irb_history"
 Pry.config.editor = ENV['EDITOR']
 Pry.config.commands.alias_command 'vi', 'edit'
 
+# Clear the screen
+Pry.config.commands.alias_command 'cl', '.clear'
 
 # ==============================
 #   Pry Prompt
