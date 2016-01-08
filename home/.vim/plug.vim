@@ -58,6 +58,7 @@ Plug 'osyo-manga/vim-over'
 " P
 Plug 'powerman/vim-plugin-AnsiEsc'
 " R
+Plug 'git@github.com:ngtk/vim-unite-issue.git'
 Plug 'rhysd/github-complete.vim'
 Plug 'rhysd/neco-ruby-keyword-args'
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
