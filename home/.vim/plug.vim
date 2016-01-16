@@ -51,6 +51,7 @@ Plug 'mopp/autodirmake.vim'
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'git@github.com:ngtk/circleci.vim.git'
 Plug 'git@github.com:ngtk/circleci-rspec.vim.git'
+Plug 'git@github.com:ngtk/open-googletranslate-vim.git'
 Plug 'ngmy/vim-rubocop'
 " O
 Plug 'open-browser.vim'
