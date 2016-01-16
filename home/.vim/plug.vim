@@ -37,7 +37,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'kmnk/vim-unite-giti'
 Plug 'koron/codic-vim'
 " L
-Plug 'lambdalisue/vim-gista', { 'on': 'Gista' }
+Plug 'lambdalisue/vim-gista'
+Plug 'lambdalisue/vim-gista-unite'
 " M
 Plug 'majutsushi/tagbar'
 Plug 'marcweber/vim-addon-mw-utils'
