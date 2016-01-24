@@ -117,3 +117,7 @@ eval "$(bundlerenv init)"
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
+
+function google() {
+  open "http://google.com/?q='$@'"
+}
