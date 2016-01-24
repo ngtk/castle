@@ -47,6 +47,7 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
 Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
 Plug 'mopp/autodirmake.vim'
+Plug 'mxw/vim-jsx'
 " N
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'git@github.com:ngtk/circleci.vim.git'
@@ -58,6 +59,7 @@ Plug 'open-browser.vim'
 Plug 'osyo-manga/vim-anzu'
 Plug 'osyo-manga/vim-over'
 " P
+Plug 'pangloss/vim-javascript'
 Plug 'powerman/vim-plugin-AnsiEsc'
 " R
 Plug 'git@github.com:ngtk/vim-unite-issue.git'
