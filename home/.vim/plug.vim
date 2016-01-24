@@ -43,7 +43,7 @@ Plug 'lambdalisue/vim-gista-unite'
 Plug 'majutsushi/tagbar'
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'mattn/benchvimrc-vim'
-Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby'] }
+Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby', 'javascript.jsx'] }
 Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
 Plug 'mopp/autodirmake.vim'
