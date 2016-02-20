@@ -46,6 +46,7 @@ Plug 'mattn/benchvimrc-vim'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby', 'javascript.jsx'] }
 Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
+Plug 'mhinz/vim-startify'
 Plug 'mopp/autodirmake.vim'
 Plug 'mxw/vim-jsx'
 " N
