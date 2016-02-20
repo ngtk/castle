@@ -8,10 +8,10 @@ Plug 'andrewradev/switch.vim'
 Plug 'basyura/unite-rails'
 Plug 'bronson/vim-trailing-whitespace'
 " C
-Plug 'chase/vim-ansible-yaml'
+Plug 'chase/vim-ansible-yaml', { 'for': ['yaml'] }
 " D
 Plug 'danro/rename.vim'
-Plug 'derekwyatt/vim-scala'
+Plug 'derekwyatt/vim-scala', { 'for': ['scala'] }
 " E
 " G
 Plug 'garbas/vim-snipmate'
@@ -48,7 +48,7 @@ Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
 Plug 'mhinz/vim-startify'
 Plug 'mopp/autodirmake.vim'
-Plug 'mxw/vim-jsx'
+Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx'] }
 " N
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'git@github.com:ngtk/circleci.vim.git'
@@ -65,7 +65,7 @@ Plug 'powerman/vim-plugin-AnsiEsc'
 " R
 Plug 'git@github.com:ngtk/vim-unite-issue.git'
 Plug 'rhysd/github-complete.vim'
-Plug 'rhysd/neco-ruby-keyword-args'
+Plug 'rhysd/neco-ruby-keyword-args', { 'for': ['ruby', 'eruby'] }
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
 Plug 'rhysd/unite-codic.vim'
 Plug 'rking/ag.vim'
