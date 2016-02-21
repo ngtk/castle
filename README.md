@@ -3,6 +3,7 @@
 
 ## Furnitures
 * [bundler](home/.bundle/config)
+* [dot-github](home/.github)
 * [git](home/.gitconfig)
 * [peco](home/.peco/config.json)
 * [pry](home/.pryrc)
