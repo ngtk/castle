@@ -129,3 +129,8 @@ function newrepo() {
   ghq get "git@github.com:$repo_path.git" &&
   ghq look "$repo_path"
 }
+
+
+if [  $(jot -r 1 1 10) = "1" ]; then
+  fortune | cowsay
+fi
