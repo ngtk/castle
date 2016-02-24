@@ -130,7 +130,27 @@ function newrepo() {
   ghq look "$repo_path"
 }
 
-
-if [  $(jot -r 1 1 10) = "1" ]; then
-  fortune | cowsay
+# fortune | cowsay
+#  ________________________________________
+# / Someday somebody has got to decide     \
+# | whether the typewriter is the machine, |
+# \ or the person who operates it.         /
+#  ----------------------------------------
+#         \   ^__^
+#          \  (oo)\_______
+#             (__)\       )\/\
+#                 ||----w |
+#                 ||     ||
+#
+# probability: 1/10
+if [ $(jot -r 1 1 10) = "1" ]; then
+  if type fortune >/dev/null 2>&1 && type cowsay >/dev/null 2>&1; then
+    fortune | cowsay
+  else
+    echo "==== fortune | cowsay ===="
+    echo "fortune or cowsay is not install."
+    echo ""
+    echo "Install:"
+    echo "brew install fortune cowsay"
+  fi
 fi
