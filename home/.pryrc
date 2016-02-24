@@ -271,6 +271,14 @@ if defined?(Rails)
 end
 
 # ==============================
+#   FactoryGirl
+# ==============================
+
+if defined?(FactoryGirl)
+  include FactoryGirl::Syntax::Methods
+end
+
+# ==============================
 #   Welcome to Pry
 # ==============================
 Pry.active_sessions = 0
