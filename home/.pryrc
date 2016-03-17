@@ -301,7 +301,7 @@ Pry.config.hooks.add_hook(:before_session, :welcome) do
     if Pry.active_sessions.zero?
       puts "Pry: #{Pry::VERSION}"
       puts "Ruby: #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
-      puts <<-'PRY_ASCII_ART'
+      puts <<-'PRY_ASCII_ART' unless defined?(Rails)
 
 __/\\\\\\\\\\\\\_______________________________
  _\/\\\/////////\\\_____________________________
