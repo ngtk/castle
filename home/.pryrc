@@ -289,6 +289,7 @@ end
 
 if defined?(FactoryGirl)
   include FactoryGirl::Syntax::Methods
+  FG = FactoryGirl
 end
 
 # ==============================
