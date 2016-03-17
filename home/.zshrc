@@ -148,7 +148,7 @@ if [ $(jot -r 1 1 10) = "1" ]; then
     fortune | cowsay
   else
     echo "==== fortune | cowsay ===="
-    echo "fortune or cowsay is not install."
+    echo "fortune or cowsay are not installed."
     echo ""
     echo "Install:"
     echo "brew install fortune cowsay"
