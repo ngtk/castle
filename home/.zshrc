@@ -154,3 +154,27 @@ if [ $(jot -r 1 1 10) = "1" ]; then
     echo "brew install fortune cowsay"
   fi
 fi
+
+# Castle control center
+if [ $(jot -r 1 1 10) = "1" ]; then
+  homeshick cd castle
+  if [ "$(git status --short)" != "" ]; then
+    echo "[castle] Your castle is messy :("
+    echo "Would you like to put the code in order now? [Y/n]"
+    read line
+    if [[ "$line" == Y* ]] || [[ "$line" == y* ]] || [ -z "$line" ]; then
+      echo "let's cleaning!"
+    else
+      cd - >/dev/null 2>&1
+    fi
+  else
+    echo "[castle] Would you like to check for updates? [Y/n]: \c"
+    read line
+    if [[ "$line" == Y* ]] || [[ "$line" == y* ]] || [ -z "$line" ]; then
+      homeshick cd castle
+      if git pull --rebase --stat origin master; then
+        cd - >/dev/null 2>&1
+      fi
+    fi
+  fi
+fi
