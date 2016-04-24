@@ -122,14 +122,6 @@ function google() {
   open "http://google.com/?q='$@'"
 }
 
-function newrepo() {
-  local repo_path="$(git config github.user)/$1"
-
-  gh repo --new "$1" &&
-  ghq get "git@github.com:$repo_path.git" &&
-  ghq look "$repo_path"
-}
-
 # fortune | cowsay
 #  ________________________________________
 # / Someday somebody has got to decide     \
