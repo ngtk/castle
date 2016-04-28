@@ -132,18 +132,6 @@ if defined? AwesomePrint
 end # End of AwesomePrint
 
 
-# ==============================
-#   Aozora
-# ==============================
-# https://github.com/ttanimichi/aozora
-if defined? Aozora
-  Aozora.titles.each do |title|
-    define_method(title) do |size = 100|
-      Aozora.public_send(title, size)
-    end
-  end
-end
-
 ### End of Vendor Stuff
 
 # ==============================

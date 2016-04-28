@@ -1,6 +1,6 @@
 nnoremap <silent><leader>g    :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
-nnoremap <silent><leader>p    :<C-u>Unite -start-insert file_rec/async<CR>
-nnoremap <silent><leader>cg   :<C-u>Unite grep:. -buffer-name=search-buffer<CR><C-R><C-W>
+nnoremap <silent><leader>f    :<C-u>Unite -start-insert file_rec/async<CR>
+nnoremap <silent><leader>gc   :<C-u>Unite grep:. -buffer-name=search-buffer<CR><C-R><C-W>
 
 if executable('ag')
   let g:unite_source_grep_command = 'ag'

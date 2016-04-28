@@ -114,6 +114,10 @@ eval "$(bundlerenv init)"
 
 # misc
 
+function routes() {
+  rake routes | peco
+}
+
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
@@ -154,3 +158,5 @@ if [ $(jot -r 1 1 10) = "1" ]; then
     echo "brew install fortune cowsay"
   fi
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

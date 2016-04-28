@@ -13,6 +13,8 @@ Plug 'chase/vim-ansible-yaml', { 'for': ['yaml'] }
 Plug 'danro/rename.vim'
 Plug 'derekwyatt/vim-scala', { 'for': ['scala'] }
 " E
+" F
+Plug 'fwip/vim-jira'
 " G
 Plug 'garbas/vim-snipmate'
 Plug 'glidenote/memolist.vim'
@@ -40,6 +42,7 @@ Plug 'koron/codic-vim'
 Plug 'lambdalisue/vim-gista'
 Plug 'lambdalisue/vim-gista-unite'
 " M
+Plug 'mnpk/vim-jira-complete'
 Plug 'majutsushi/tagbar'
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'mattn/benchvimrc-vim'
@@ -47,8 +50,9 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby', 'javascript.jsx'] }
 Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
 Plug 'mhinz/vim-startify'
+Plug 'mnpk/vim-jira-complete'
 Plug 'mopp/autodirmake.vim'
-Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx'] }
+Plug 'mxw/vim-jsx'
 " N
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
 Plug 'git@github.com:ngtk/circleci.vim.git'
