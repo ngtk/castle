@@ -1,7 +1,8 @@
 # castle - 城
-:european_castle: My comfort zone
+[
+![trello](/README/trello-logo-blue.png)
+](https://trello.com/b/1YWHte5S)
 
-## Furnitures
 * [bundler](home/.bundle/config)
 * [dot-github](home/.github)
 * [git](home/.gitconfig)
