@@ -142,6 +142,16 @@ function rbenv-install() {
   fi
 }
 
+# wrap rbenv command
+function rbenv() {
+  # If you run just `rbenv install`, it calls rbenv-install()
+  if [ "$1" = "install" ] && [ "$2" = "" ]; then
+    rbenv-install
+  else
+    /usr/local/bin/rbenv $@
+  fi
+}
+
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
