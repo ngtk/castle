@@ -152,15 +152,24 @@ function rbenv() {
   fi
 }
 
+#
+#  ghq-remove
+#
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
 
+
+#
+#  google everything
+#
 function google() {
   open "http://google.com/?q='$@'"
 }
 
-# fortune | cowsay
+#
+# fortune cowsay
+# --------------
 #  ________________________________________
 # / Someday somebody has got to decide     \
 # | whether the typewriter is the machine, |
