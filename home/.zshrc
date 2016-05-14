@@ -123,6 +123,25 @@ function peco-routes() {
   rake routes | peco
 }
 
+
+#
+# ruby-install-peco
+# -----------------
+# You can install ruby which you peco from latest ruby version list
+#
+function rbenv-install() {
+  echo "updating homebrew..."
+  brew update
+  echo "updating ruby-build..."
+  brew upgrade ruby-build
+  version=$(rbenv install --list | peco)
+  if [ "$version" != "" ]; then
+    rbenv install $version
+  else
+    echo "You should choose the version of ruby."
+  fi
+}
+
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
