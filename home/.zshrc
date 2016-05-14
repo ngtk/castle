@@ -114,6 +114,15 @@ eval "$(bundlerenv init)"
 
 # misc
 
+#
+# peco-routes
+# -----------
+# You can peco rails routes! yay!
+#
+function peco-routes() {
+  rake routes | peco
+}
+
 function ghq-remove() {
   ghq list --full-path | peco | xargs rm -r
 }
