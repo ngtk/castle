@@ -6,7 +6,7 @@ let g:syntastic_mode_map = {
       \ 'mode': 'passive'
       \ }
 let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 " styles
 hi SyntasticErrorSign   ctermbg=black ctermfg=1

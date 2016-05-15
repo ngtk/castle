@@ -88,6 +88,7 @@ Plug 'thinca/vim-ref'
 Plug 'thinca/vim-prettyprint'
 Plug 'thinca/vim-template'
 Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
+Plug 'othree/yajs.vim'
 Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
