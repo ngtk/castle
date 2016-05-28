@@ -1,7 +1,3 @@
-" <space>d :
-" start dictionary
-nmap <silent> <space>d :Dictionary<CR>
-
-" <space>d* :
+" <leader>d :
 " look the word under cursor in dictionary.app
-nmap <silent> <space>d* :Dictionary -cursor-word<CR>
+nmap <silent> <leader>d :Dictionary -cursor-word<CR>
