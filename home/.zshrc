@@ -133,8 +133,8 @@ function rbenv-install() {
   echo "updating homebrew..."
   brew update
   echo "updating ruby-build..."
-  brew upgrade ruby-build
-  version=$(rbenv install --list | peco)
+  brew upgrade ruby-build --HEAD
+  version=$(rbenv install --list | peco | sed -e "s/ //g")
   if [ "$version" != "" ]; then
     rbenv install $version
   else
