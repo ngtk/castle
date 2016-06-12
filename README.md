@@ -1,7 +1,4 @@
 # castle - 城
-[
-![trello](/README/trello-logo-blue.png)
-](https://trello.com/b/1YWHte5S)
 
 * [bundler](home/.bundle/config)
 * [dot-github](home/.github)
