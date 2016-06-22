@@ -64,6 +64,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'powerman/vim-plugin-AnsiEsc'
 " R
 Plug 'git@github.com:ngtk/vim-unite-issue.git'
+Plug 'rizzatti/dash.vim'
 Plug 'rhysd/github-complete.vim'
 Plug 'rhysd/neco-ruby-keyword-args', { 'for': ['ruby', 'eruby'] }
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
