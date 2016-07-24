@@ -18,6 +18,9 @@ alias preview="open -a Preview"
 alias vimrc='vi ~/.vimrc -c "CtrlP ~/.vim/userautoload"'
 alias vimp='vi ~/.vim/plug.vim && vi +PlugClean +PlugInstall +qa!'
 
+# Edit .fzf.zsh
+alias vifzf='vi ~/.fzf.zsh && source ~/.fzf.zsh'
+
 # rm
 alias rmdir='rm -rf'
 
