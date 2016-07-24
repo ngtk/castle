@@ -15,9 +15,7 @@ Plug 'derekwyatt/vim-scala', { 'for': ['scala'] }
 " E
 " G
 Plug 'garbas/vim-snipmate'
-Plug 'glidenote/memolist.vim'
 Plug 'gorodinskiy/vim-coloresque', { 'for': ['css', 'scss'] }
-Plug 'gregsexton/gitv'
 Plug 'guns/xterm-color-table.vim', { 'on': 'XtermColorTable' }
 " H
 Plug 'haya14busa/vim-operator-flashy'
@@ -27,15 +25,13 @@ Plug 'itchyny/dictionary.vim'
 Plug 'itchyny/lightline.vim'
 " J
 Plug 'jiangmiao/auto-pairs'
-Plug 'junegunn/fzf'
-Plug 'junegunn/vim-easy-align'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/vim-emoji'
 " K
 Plug 'kana/vim-operator-user'
 Plug 'kchmck/vim-coffee-script'
 Plug 'kien/ctrlp.vim'
 Plug 'kmnk/vim-unite-giti'
-Plug 'koron/codic-vim'
 " L
 Plug 'lambdalisue/vim-gista'
 Plug 'lambdalisue/vim-gista-unite'
@@ -46,14 +42,10 @@ Plug 'mattn/benchvimrc-vim'
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'eruby', 'javascript.jsx'] }
 Plug 'mattn/webapi-vim'
 Plug 'mbbill/undotree'
-Plug 'mhinz/vim-startify'
 Plug 'mopp/autodirmake.vim'
 Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx'] }
 " N
 Plug 'nathanaelkane/vim-indent-guides', { 'for': ['python'], 'on': ['IndentGuidesEnable', 'IndentGuidesToggle']  }
-Plug 'git@github.com:ngtk/circleci.vim.git'
-Plug 'git@github.com:ngtk/circleci-rspec.vim.git'
-Plug 'git@github.com:ngtk/open-googletranslate-vim.git'
 Plug 'ngmy/vim-rubocop'
 " O
 Plug 'open-browser.vim'
@@ -63,24 +55,18 @@ Plug 'osyo-manga/vim-over'
 Plug 'pangloss/vim-javascript'
 Plug 'powerman/vim-plugin-AnsiEsc'
 " R
-Plug 'git@github.com:ngtk/vim-unite-issue.git'
 Plug 'rizzatti/dash.vim'
-Plug 'rhysd/github-complete.vim'
 Plug 'rhysd/neco-ruby-keyword-args', { 'for': ['ruby', 'eruby'] }
 Plug 'rhysd/unite-ruby-require.vim', { 'for': ['ruby', 'eruby'] }
-Plug 'rhysd/unite-codic.vim'
 Plug 'rking/ag.vim'
 " S
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'shougo/neocomplete.vim'
 Plug 'shougo/neosnippet'
-Plug 'shougo/vinarise.vim'
 Plug 'ngtk/neosnippet-snippets'
 Plug 'shougo/unite.vim'
 Plug 'shougo/vimproc.vim', { 'do': 'vim +VimProcInstall' }
-Plug 'shougo/vimshell.vim'
-Plug 'slim-template/vim-slim'
 Plug 'sorah/unite-ghq'
 Plug 'szw/vim-tags'
 Plug 'szw/vim-g'
@@ -93,7 +79,6 @@ Plug 'othree/yajs.vim'
 Plug 'tmux-plugins/vim-tmux', { 'for': 'tmux' }
 Plug 'tomasr/molokai'
 Plug 'tomtom/tlib_vim'
-Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'ngtk/vim-dispatch'
 Plug 'tpope/vim-endwise'
